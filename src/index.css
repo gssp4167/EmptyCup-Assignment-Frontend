@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainDiv {
+  overflow: scroll;
+}
+
+.mainDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.card:nth-child(2n+1) {
+  background: #fffcf2;
+}
