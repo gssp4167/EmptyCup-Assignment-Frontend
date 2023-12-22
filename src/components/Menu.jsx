@@ -35,7 +35,7 @@ const Menu = ({activeMenu, setActiveMenu}) => {
       >
         <img
           className="w-6"
-          src={` ${activeMenu=='shortlisted' ? "src/assets/clipboard-heart-yellow.svg" : "src/assets/clipboard-heart.svg"} `}
+          src={`${activeMenu=='shortlisted' ? "assets/clipboard-heart-yellow.svg" : "assets/clipboard-heart.svg"} `}
           alt=""
         />
         <span className="mt-2 text-[8px]">Shortlisted</span>
