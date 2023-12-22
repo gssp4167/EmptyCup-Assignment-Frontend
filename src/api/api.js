@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "https://json-service-x1zg.onrender.com";
+const url = "https://emptycup-assignment-backend.onrender.com";
 
 export const callGetAllItems = async () => {
   const response = await axios.get(`${url}/items`);
